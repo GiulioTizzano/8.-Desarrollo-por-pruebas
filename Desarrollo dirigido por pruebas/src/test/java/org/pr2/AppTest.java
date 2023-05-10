@@ -18,5 +18,9 @@ public class AppTest{
     int[] lista = {1, 2, 3, 4, 5};
     assertEquals(1 + 2 + 3 + 4 + 5, Matematicas.sumaElementosLista(lista, 4));
 }
-
+@Test
+    public void TestMediaAritmeticaLista(){
+        int[] lista = {1, 2, 3, 4, 5};
+        assertEquals(15 / 5, Matematicas.sumaElementosLista(lista, ));
+    }
 }

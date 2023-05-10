@@ -20,12 +20,15 @@ public class Matematicas {
         }
     }
     public static int sumaElementosLista(int[] lista, int d){
-        if(d == 1){
+        if(d == 0){
             return lista[0];
         } else{
             return lista[d] + sumaElementosLista(lista, d - 1);
         }
 
+    }
+    public static int mediaAritmeticaLista(int[] lista){
+        return sumaElementosLista(lista, lista.length - 1) / 5;
     }
 
 }
